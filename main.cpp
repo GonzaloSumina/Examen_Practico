@@ -16,15 +16,15 @@ int main(){
 	bool Menu=true;
 	int matriz[10][10];
 	std::string fila_="\033[33m----------------------------------------------\033[m";
-    std::string columna_="\033[33m | \033[m";
-    std::cout << fila_ << std::endl;
-    std::cout << columna_ << "Universidad Catolica San Pablo          " << columna_ << std::endl;
-    std::cout << columna_ << "Curso de Ciencia de la Computacion 1    " << columna_ << std::endl;
-    std::cout << columna_ << "Docente: Manuel Eduardo Loaiza Fernandez" << columna_<< std::endl;
-    std::cout << columna_ << "Creado por:                             " << columna_<< std::endl;
-    std::cout << columna_ << "- Gonzalo Sumina Quispe                 " << columna_<< std::endl;
-    std::cout << columna_ << "- Juan Palo Alejandro                   " << columna_<< std::endl;
-    std::cout << fila_ << std::endl;
+    	std::string columna_="\033[33m | \033[m";
+   	std::cout << fila_ << std::endl;
+    	std::cout << columna_ << "Universidad Catolica San Pablo          " << columna_ << std::endl;
+    	std::cout << columna_ << "Curso de Ciencia de la Computacion 1    " << columna_ << std::endl;
+    	std::cout << columna_ << "Docente: Manuel Eduardo Loaiza Fernandez" << columna_<< std::endl;
+    	std::cout << columna_ << "Creado por:                             " << columna_<< std::endl;
+   	std::cout << columna_ << "- Gonzalo Sumina Quispe                 " << columna_<< std::endl;
+   	std::cout << columna_ << "- Juan Palo Alejandro                   " << columna_<< std::endl;
+   	std::cout << fila_ << std::endl;
 	while(Menu){
 		std::cout<<"Seleccione una opcion (1-8).\n";
 		std::cout<<"(1)\tInicializar elementos de la matriz con valores \n\taleatorios del 0 al 99.\n";
